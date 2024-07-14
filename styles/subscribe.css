@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+    font-size: 15px;
+    color: #eee;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.subscribe-container{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub-container{
+    width: 50%;
+    height: 60%;
+    border-radius: 10px;
+    background-color: #16181f;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.close{
+    width: 90%;
+    height: 30px;
+
+    display: flex;
+    justify-content: flex-end;
+}
+.input-container{
+    width: 18rem;
+    height: 3rem;
+    display: flex;
+}
+.num-input-1{
+    width: 50px;
+    height: 40px;
+
+    background: transparent;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-align: center;
+    
+}
+.fa-xmark{
+    cursor: pointer;
+}
+.num-input-2{
+    width: 200px;
+    height: 40px;
+
+    background: transparent;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 0 10px ;
+    color: #eee;
+}
+.help{
+    font-weight: 600;
+    color: rgb(8, 111, 208);
+}
+.login{
+    width: 18rem;
+    height: 3rem;
+    background-color: rgb(8, 111, 208);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #eee;
+    font-weight: 600;
+    cursor: pointer;
+}

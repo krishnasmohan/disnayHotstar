@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe</title>
+
+    <link rel="stylesheet" href="styles/subscribe.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="subscribe-container">
+            <div class="sub-container">
+                <div class="close"><i class="fa-sharp fa-solid fa-xmark" onclick="openPage()"></i></div>
+                <h1>Login or Signup to continue</h1>
+                <p>Enter phone number to login</p>
+                <div class="input-container">
+                    <span class="num-input-1"><p>+91</p></span>
+                    <input type="text" class="num-input-2" placeholder="Enter mobile number">
+                </div>
+                <br><br><br>
+                <button class="login">Login</button>
+                
+                <p>Having trouble logging in? <span class="help">Get Help</span></p>
+            </div>
+        </div>
+    </div>
+    <script>
+        function openPage(){
+            window.open('index.html');
+        }
+    </script>
+</body>
+</html>
